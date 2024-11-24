@@ -58,12 +58,13 @@ body {
 }
 
 .social-links-container .user-details h3 {
-    font-weight: var(--font-weight-800);
+    font-weight: var(--font-weight-700);
     font-size: 1.7rem;
 
 }
 
 .social-links-container .user-details p {
+    font-weight: var(--font-weight-600);
     color: var(--green-color);
     font-size: 1rem;
 }
