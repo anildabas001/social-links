@@ -14,6 +14,7 @@
     --font-weight-400: 400;
     --font-weight-600: 600;
     --font-weight-700: 700;
+    --small-gap: 10px;
     font-size: 14px;
 }
 
@@ -24,7 +25,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 10px;
+    padding: var(--small-gap);
 }
 
 .social-links-container {
@@ -52,7 +53,7 @@ body {
 .social-links-container .user-details {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: var(--small-gap);
     align-items: center;
     justify-content: center;
 }
@@ -82,7 +83,7 @@ body {
 .social-links-container ul.social-links li{
     background-color: var(--grey-color-700);
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: var(--small-gap);
     padding: 15px 0px;
     border-radius: 5px;
     font-weight: var(--font-weight-600);
